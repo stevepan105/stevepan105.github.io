@@ -1,0 +1,31 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+}
+
+label {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+button {
+	margin-top: 20px;
+}
+
+#result {
+	margin-top: 50px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
