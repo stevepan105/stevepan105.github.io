@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>留学费用计算器</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>留学费用计算器</h1>
+		<form id="calculator-form">
+			<label>留学国家：</label>
+			<select id="country" name="country">
+				<option value="">请选择</option>
+				<option value="美国">美国</option>
+				<option value="英国">英国</option>
+				<option value="澳大利亚">澳大利亚</option>
+				<option value="加拿大">加拿大</option>
+			</select>
+			<br>
+			<label>学位：</label>
+			<input type="radio" id="bachelor" name="degree" value="本科">
+			<label for="bachelor">本科</label>
+			<input type="radio" id="master" name="degree" value="硕士">
+			<label for="master">硕士</label>
+			<input type="radio" id="phd" name="degree" value="博士">
+			<label for="phd">博士</label>
+			<br>
+			<label>消费习惯：</label>
+			<input type="radio" id="high" name="consumption" value="高">
+			<label for="high">高</label>
+			<input type="radio" id="medium" name="consumption" value="中">
+			<label for="medium">中</label>
+			<input type="radio" id="low" name="consumption" value="低">
+			<label for="low">低</label>
+			<br>
+			<button type="submit">计算</button>
+		</form>
+		<div id="result"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
